@@ -1,0 +1,2 @@
+# LeetCodeAnswerFramework
+一个简单的乐色框架，在leetcode做题的时候能更容易的运行自己的的代码，支持批量输入输出。
