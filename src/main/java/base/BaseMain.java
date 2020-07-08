@@ -104,7 +104,6 @@ public class BaseMain {
     /**
      * 多元入参
      */
-    // todo 多元入参
     public static <Q, W, E, O> List<O> tryYourAnswer(ThirdAnswerFunction<Q, W, E, O> answerFunction,
                                                      List<Tuple3<Q, W, E>> inputList) {
         return tryYourAnswer(answerFunction, inputList, String::valueOf, String::valueOf);

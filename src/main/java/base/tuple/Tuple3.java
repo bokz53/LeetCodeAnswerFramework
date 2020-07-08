@@ -17,6 +17,15 @@ public class Tuple3<Q, W, E> {
 
     private E third;
 
+    public Tuple3(Q first, W second, E third) {
+        this.first = first;
+        this.second = second;
+        this.third = third;
+    }
+
+    public Tuple3() {
+    }
+
     public Q getFirst() {
         return first;
     }
