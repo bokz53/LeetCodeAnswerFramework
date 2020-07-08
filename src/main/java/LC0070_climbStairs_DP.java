@@ -29,7 +29,10 @@ public class LC0070_climbStairs_DP extends BaseMain {
 
         LC0070_climbStairs_DP lc = new LC0070_climbStairs_DP();
 
-        tryYourAnswer(lc::climbStairs, inputIntList);
+        tryYourAnswer(lc::climbStairs, inputIntList,
+                item -> "自定义入参输入函数 :" + item,
+                item -> "自定义答案输入函数 :" + item
+                );
     }
 
 
