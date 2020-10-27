@@ -17,6 +17,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class BaseMain {
 
+    @Deprecated
     public static <I, O> O tryYourAnswer(AnswerFunction<I, O> answerFunction, I input) {
 
         O result = answerFunction.doIt(input);
@@ -62,6 +63,7 @@ public class BaseMain {
     /**
      * 二元入参
      */
+    @Deprecated
     public static <I, U, O> O tryYourAnswer(BiAnswerFunction<I, U, O> answerFunction, I input1, U input2) {
 
         O result = answerFunction.doIt(input1, input2);

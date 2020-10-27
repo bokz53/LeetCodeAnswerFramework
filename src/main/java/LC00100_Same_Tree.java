@@ -1,4 +1,6 @@
 import base.BaseMain;
+import utils.TreeNode;
+import utils.TreeNodeUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -53,12 +55,3 @@ public class LC00100_Same_Tree extends BaseMain {
     }
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    public TreeNode(int x) {
-        val = x;
-    }
-}
